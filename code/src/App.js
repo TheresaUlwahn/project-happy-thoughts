@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { HappyThought } from "./components/HappyThought"
 import { HappyForm } from "./components/HappyForm"
- /*import { HappyHeart } from "./components/HappyHeart"*/
+
 
 const url = "https://technigo-thoughts.herokuapp.com/"
 
@@ -25,15 +25,26 @@ export const App = () => {
       .catch(err => console.log("error:", err))
   }
 
+  const onLiked = (thoughtId) => {
+    console.log ("Logging in the App.js", thoughtId)
+    const updatedThoughts = thoughts.map(thought => {
+      if (thought._id === thoughtId) {
+        thought.hearts += 1
+      }
+      return thought
+    })
+    setThoughts(updatedThoughts)
+  }
+
   return (
     <main>
       <HappyForm onFormSubmit={handleFormSubmit} />
       {thoughts.map(thought => (
-        <HappyThought key={thought._id} thought={thought} />
-       /* <HappyHeart id={props.thought._id}  thought={props.thought}  />*/
-        
+        <HappyThought key={thought._id} thought={thought} onLiked={onLiked} />
+       /* <HappyHeart id={props.thought._id}  thought={props.thought}  />*/  
       ))}
      
     </main>
   )
+      
 }

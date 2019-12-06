@@ -8,6 +8,7 @@ export const HappyForm = props => {
   const handleSubmit = event => {
     event.preventDefault()
     props.onFormSubmit(message) // this onFormSubmit comes as a props from App.js
+    setMessage("")
   }
 
   return (

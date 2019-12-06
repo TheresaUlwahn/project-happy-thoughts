@@ -1,17 +1,9 @@
-{/*import React, { useState } from "react"
+/*import React, { Component } from 'react'
 
-export const HappyHeart = (props) => {
-    const handleClick = () => {
-        fetch(`https://technigo-thoughts.herokuapp.com/${_id}/like`, {
-        method: "POST", 
-        body: "", 
-        headers: { "Content-Type": "application/json" }
-      }).then(() => {
-        props.HappyThought(props._id)
-      })
-    }
-  
-    return (
-      <button onClick={handleClick}>Heart</button>
+export const HappyHeart = props => {
+  render()
+    let { title, task } = this.props
+    return(
+      <button onClick = { task }>{ title }</button>
     )
-  }*/}
+}*/
