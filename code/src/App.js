@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react"
 import { HappyThought } from "./components/HappyThought"
 import { HappyForm } from "./components/HappyForm"
+ /*import { HappyHeart } from "./components/HappyHeart"*/
 
 const url = "https://technigo-thoughts.herokuapp.com/"
 
@@ -29,7 +30,10 @@ export const App = () => {
       <HappyForm onFormSubmit={handleFormSubmit} />
       {thoughts.map(thought => (
         <HappyThought key={thought._id} thought={thought} />
+       /* <HappyHeart id={props.thought._id}  thought={props.thought}  />*/
+        
       ))}
+     
     </main>
   )
 }
