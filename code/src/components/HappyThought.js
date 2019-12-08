@@ -20,13 +20,14 @@ const handleClick = () => {
     <article className='happy-thought'>
       <h3>{message}</h3>
       <p>
-     <button onClick={handleClick}>
-        <span role='img' aria-label='Heart' >
-          {"❤️ "}
-
-        </span>
+      <button 
+        className='happy-heart' 
+        onClick={handleClick}>
+          <span role='img' aria-label='Heart' >
+            {"❤️ "}
+          </span>
         
-        </button>     
+      </button>     
         x {hearts}
       </p>
       <p>{moment(createdAt).fromNow()}</p>

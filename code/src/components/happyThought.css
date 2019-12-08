@@ -15,5 +15,20 @@
   font-family: "Courier", monospace;
   font-size: 16px;
   margin: 0;
+  color: #383838;
 }
 
+.happy-thought p {
+  border-bottom: 0px;
+  margin: 0px;
+  font-size: 13px;
+  color: #8d8a8a;
+
+}
+
+.happy-heart {
+  background-color: pink;
+  border-radius: 100px;
+  padding: 10px;
+  border-right: 5px;
+}
