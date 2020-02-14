@@ -13,7 +13,7 @@ export const HappyForm = props => {
 
   return (
     <form className='happy-form'>
-      <h3>Post a happy thought!</h3>
+      <h3>What's making you happy right now?</h3>
       <textarea
         rows='3'
         onChange={event => setMessage(event.target.value)}
@@ -28,7 +28,7 @@ export const HappyForm = props => {
           <span role='img' aria-label='Heart' >
             {"❤️ "}
           </span>
-          Whats making you happy right now?
+          Post your happy thought!
           <span role='img' aria-label='Heart' >
             {"❤️ "}
           </span>
