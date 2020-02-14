@@ -28,7 +28,7 @@ export const HappyForm = props => {
           <span role='img' aria-label='Heart' >
             {"❤️ "}
           </span>
-          Send a happy thought
+          Whats making you happy right now?
           <span role='img' aria-label='Heart' >
             {"❤️ "}
           </span>
