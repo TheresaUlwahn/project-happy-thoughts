@@ -2,14 +2,14 @@ import React from "react"
 import moment from "moment" // this is to format the date
 import "./happyThought.css"
 
-const url = "https://project-happy-thoughts-api.herokuapp.com/${_id}/like"
+// const url = "https://project-happy-thoughts-api.herokuapp.com/${_id}/like"
 
 export const HappyThought = props => {
   const { message, hearts, createdAt, _id } = props.thought
   
 const handleClick = () => {
   console.log ("clicking!", _id)
-  fetch (url, {
+  fetch (`https://project-happy-thoughts-api.herokuapp.com/${_id}/like`, {
     method: "POST",
     body: "",
     headers: {"Content-Type": "application/json"}
