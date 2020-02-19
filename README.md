@@ -1,8 +1,10 @@
 # Happy Thoughts 
 
 Try the site out here: https://mrsucodesproject11thehappythoughts.netlify.com/
+And here the code is for the API build from scratch in the backend: https://github.com/TheresaUlwahn/project-happy-thoughts-api
+Link to Heroku for the API: https://project-happy-thoughts-api.herokuapp.com/
 
-Upon building this site, I was able to practice my React state skills by fetching and posting data to an API.
+Upon building this site, I was able to practice my React state skills by fetching and posting data to an API, which I also build from scratch using MongoDB and Node.JS.
 
 ## What I learned 🧠
 
