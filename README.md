@@ -1,34 +1,46 @@
-# Happy Thoughts 
+# Happy Thoughts a happy version of Twitter 
 
-Upon building this site, I was able to practice my React state skills by fetching and posting data to an API, which I also build from scratch using MongoDB and Node.JS.
+A Happy thoughts kind of Twitter, send a message of what makes you happy right now and you or someone else can like it!
 
-## To build
+This project has been all about using React state skills by fetching and posting data to an API, to a backend which I also build from scratch.
 
-Run npm install 
-Run script npm start
+## Usage
+
+* Install required dependencies with npm: `npm install`
+* Start the project: `npm start`
 
 ## View it live
 
-https://mrsucodesproject11thehappythoughts.netlify.com/
+Link to the deployed project: https://mrsucodesproject11thehappythoughts.netlify.com/
 
-And here the code is for the API build from scratch in the backend: https://github.com/TheresaUlwahn/project-happy-thoughts-api
+Link to deployed backend: https://project-happy-thoughts-api.herokuapp.com/
 
-Heroku for the API: https://project-happy-thoughts-api.herokuapp.com/
+The code for the API in the backend: https://github.com/TheresaUlwahn/project-happy-thoughts-api
+
+## Techniques
+
+* React 
+* Hooks 
+* useState & useEffect
+
+Fetching API Backend built with:
+* node.js 
+* MongoDB a Mongoose model
 
 ## What I'm proud of with my code
 
-* How to use APIs in React, firing requests within `useEffect`.
-* How to put the result of API responses into React state to show in the page.
-* What it's like to work with an API which you both send and receive data from.
+* The use of APIs in React, firing requests within `useEffect`.
+* How I put the result of API responses into React state to show in the page.
+* To show my skills in working with an API, which you both send and receive data from.
 
 ## What is build
 
-* The page follows the design as closely as possible
+* A form to post new thoughts
 * The page lists the most recent thoughts
-* The page has a form to post new thoughts
-* The page has the heart button to send likes on a thought
-* Code follows Technigo’s code guidelines.
+* Every thought has a heart button to send likes
 
 ## Next step
-Refactor the code
-Move the postrequest from App.js to HappyForm.js
+
+* Refactor the code
+* Move the postrequest from App.js to HappyForm.js
+* Css can never be enough 
