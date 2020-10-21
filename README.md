@@ -19,13 +19,13 @@ The code for the API in the backend: https://github.com/TheresaUlwahn/project-ha
 
 ## Techniques
 
-*React 
-*Hooks 
-*useState & useEffect
+* React 
+* Hooks 
+* useState & useEffect
 
 Fetching API Backend built with:
-*node.js 
-*MongoDB a Mongoose model
+* node.js 
+* MongoDB a Mongoose model
 
 ## What I'm proud of with my code
 
