@@ -1,34 +1,35 @@
-# Happy Thoughts 
+# Happy Thoughts a happy version of Twitter 
 
-Upon building this site, I was able to practice my React state skills by fetching and posting data to an API, which I also build from scratch using MongoDB and Node.JS.
+A Happy Thoughts kind of Twitter, send a message of what makes you happy right now and you or someone else can like it!
+
+This project has been all about using React state skills by fetching and posting data to an API, to a backend which I also build from scratch.
 
 ## To build
 
-Run npm install 
-Run script npm start
+Run "npm install" 
+Run script "npm start"
 
 ## View it live
 
 https://mrsucodesproject11thehappythoughts.netlify.com/
 
-And here the code is for the API build from scratch in the backend: https://github.com/TheresaUlwahn/project-happy-thoughts-api
+And here the code is for the API in the backend: https://github.com/TheresaUlwahn/project-happy-thoughts-api
 
 Heroku for the API: https://project-happy-thoughts-api.herokuapp.com/
 
 ## What I'm proud of with my code
 
-* How to use APIs in React, firing requests within `useEffect`.
-* How to put the result of API responses into React state to show in the page.
-* What it's like to work with an API which you both send and receive data from.
+* The use of APIs in React, firing requests within `useEffect`.
+* How I put the result of API responses into React state to show in the page.
+* To show my skills in working with an API, which you both send and receive data from.
 
 ## What is build
 
-* The page follows the design as closely as possible
+* A form to post new thoughts
 * The page lists the most recent thoughts
-* The page has a form to post new thoughts
-* The page has the heart button to send likes on a thought
-* Code follows Technigo’s code guidelines.
+* Every thought has a heart button to send likes
 
 ## Next step
 Refactor the code
 Move the postrequest from App.js to HappyForm.js
+Css can never be enough 
