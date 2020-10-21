@@ -1,13 +1,13 @@
 # Happy Thoughts a happy version of Twitter 
 
-A Happy Thoughts kind of Twitter, send a message of what makes you happy right now and you or someone else can like it!
+A Happy thoughts kind of Twitter, send a message of what makes you happy right now and you or someone else can like it!
 
 This project has been all about using React state skills by fetching and posting data to an API, to a backend which I also build from scratch.
 
-## To build
+## Usage
 
-* Run "npm install" 
-* Run script "npm start"
+* Install required dependencies with npm: `npm install`
+* Start the project: `npm start`
 
 ## View it live
 
