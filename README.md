@@ -6,16 +6,26 @@ This project has been all about using React state skills by fetching and posting
 
 ## To build
 
-Run "npm install" 
-Run script "npm start"
+* Run "npm install" 
+* Run script "npm start"
 
 ## View it live
 
-https://mrsucodesproject11thehappythoughts.netlify.com/
+Link to the deployed project: https://mrsucodesproject11thehappythoughts.netlify.com/
 
-And here the code is for the API in the backend: https://github.com/TheresaUlwahn/project-happy-thoughts-api
+Link to deployed backend: https://project-happy-thoughts-api.herokuapp.com/
 
-Heroku for the API: https://project-happy-thoughts-api.herokuapp.com/
+The code for the API in the backend: https://github.com/TheresaUlwahn/project-happy-thoughts-api
+
+## Techniques
+
+*React 
+*Hooks 
+*useState & useEffect
+
+Fetching API Backend built with:
+*node.js 
+*MongoDB a Mongoose model
 
 ## What I'm proud of with my code
 
@@ -30,6 +40,7 @@ Heroku for the API: https://project-happy-thoughts-api.herokuapp.com/
 * Every thought has a heart button to send likes
 
 ## Next step
-Refactor the code
-Move the postrequest from App.js to HappyForm.js
-Css can never be enough 
+
+* Refactor the code
+* Move the postrequest from App.js to HappyForm.js
+* Css can never be enough 
