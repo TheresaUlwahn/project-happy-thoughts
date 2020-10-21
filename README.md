@@ -10,13 +10,13 @@ And here the code is for the API build from scratch in the backend: https://gith
 
 Heroku for the API: https://project-happy-thoughts-api.herokuapp.com/
 
-## Questions asked and answered
+## What I'm proud of with my code
 
 * How to use APIs in React, firing requests within `useEffect`.
 * How to put the result of API responses into React state to show in the page.
 * What it's like to work with an API which you both send and receive data from.
 
-## Requirements met 🧪
+## What is build
 
 * The page follows the design as closely as possible
 * The page lists the most recent thoughts
