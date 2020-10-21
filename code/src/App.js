@@ -38,7 +38,8 @@ export const App = () => {
 
   return (
     <main>
-      <HappyForm onFormSubmit={handleFormSubmit} />
+      {/* picking up the form that I have submitted and bring the props, which is message, row 18 */}
+      <HappyForm onFormSubmit={handleFormSubmit} /> 
       {thoughts.map(thought => (
         <HappyThought key={thought._id} thought={thought} onLiked={onLiked} />  
       ))}

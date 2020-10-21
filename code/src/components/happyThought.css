@@ -1,5 +1,6 @@
 
 .happy-thought {
+  background-color: #ced6e3;
   border: 2px solid black;
   box-shadow: 4px 4px black;
   width: 300px;
@@ -22,6 +23,7 @@
   border-bottom: 0px;
   margin: 0px;
   font-size: 13px;
+  /* color: white; */
   color: #8d8a8a;
 
 }
@@ -31,4 +33,7 @@
   border-radius: 100px;
   padding: 10px;
   border-right: 5px;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }

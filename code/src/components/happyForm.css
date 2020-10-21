@@ -1,5 +1,6 @@
 .happy-form {
-  background-color: #f3f1f1;
+  background-color: #ced6e3;
+  /* background-color: #f3f1f1; */
   border: 2px solid black;
   box-shadow: 4px 4px black;
   width: 300px;
@@ -28,7 +29,7 @@
 .happy-form button {
   height: 45px;
   width: 78%;
-  background-color: #ffadad;
+  background-color: #f9dfe6;
   border: none;
   font-size: 12px;
   border-radius: 25px;
